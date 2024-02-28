@@ -16,3 +16,7 @@ target_link_libraries(main glfw)
 # Add OpenGL library
 find_package(OpenGL REQUIRED)
 target_link_libraries(main OpenGL::GL)
+
+# GCC 컴파일러 사용
+set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_COMPILER g++)

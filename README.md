@@ -2,6 +2,14 @@
 
 ### language : C
 
+## build / run
+```
+cmake -S. -B build
+cmake --build build
+cd build 
+./main
+```
+
 ## 기능
 
 - 윈도우 중앙에 파란색 포인트로 윈도우 중앙 표시
